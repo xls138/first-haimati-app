@@ -43,7 +43,7 @@ export default function ProcessStep({ step, index }: ProcessStepProps) {
       }}
       className="flex flex-col items-center"
     >
-      <div className="relative w-full max-w-[280px] mb-6 transform transition-transform duration-500 hover:scale-105">
+      <div className="relative w-full max-w-70 mb-6 transform transition-transform duration-500 hover:scale-105">
         <Image
           src={step.imageSrc || "/placeholder.svg"}
           alt={`Step ${step.number}: ${step.title}`}

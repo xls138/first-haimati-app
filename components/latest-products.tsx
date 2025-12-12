@@ -143,7 +143,7 @@ export default function LatestProducts() {
                 alt={activeCategory.label}
                 width={1200}
                 height={600}
-                className="w-full h-auto max-h-[500px] object-contain mx-auto"
+                className="w-full h-auto max-h-125 object-contain mx-auto"
               />
             </motion.div>
           </AnimatePresence>

@@ -62,7 +62,7 @@ export default function Navbar() {
                 <span className="sr-only">切换菜单</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[250px] sm:w-[300px]">
+            <SheetContent side="right" className="w-62.5 sm:w-75">
               <SheetTitle className="sr-only">导航菜单</SheetTitle>
               <nav className="flex flex-col gap-4 pt-10">
                 {navItems.map((item) => (

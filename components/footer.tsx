@@ -20,7 +20,7 @@ export default function Footer() {
     { href: "#", label: "抖音", src: "/f4.webp" },
   ];
   return (
-    <footer className="w-full bg-white py-8 border-t max-w-screen-xl mx-auto">
+    <footer className="w-full bg-white py-8 border-t max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-8">
           {/* Logo */}

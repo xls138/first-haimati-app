@@ -186,7 +186,7 @@ function ServiceCard({ service, index, isMaster }: ServiceCardProps) {
       whileHover={{ y: -10 }}
       className="flex flex-col items-center "
     >
-      <div className="relative w-full max-w-[211px] aspect-square p-2 mb-4 overflow-hidden rounded-lg mx-auto">
+      <div className="relative w-full max-w-52.75 aspect-square p-2 mb-4 overflow-hidden rounded-lg mx-auto">
         <Image
           src={service.image}
           alt={service.title}
